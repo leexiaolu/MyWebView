@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.bt_web4:
+                intent = new Intent(MainActivity.this,Web4Activity.class);
+                startActivity(intent);
                 break;
             case R.id.bt_web5:
                 break;
