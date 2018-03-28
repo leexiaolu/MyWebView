@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.leesnriud.mywebview.Web3Activity">
 
+    <WebView
+        android:id="@+id/wv_web3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </android.support.constraint.ConstraintLayout>

@@ -27,8 +27,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.bt_web2:
+                intent = new Intent(MainActivity.this,Web2Activity.class);
+                startActivity(intent);
                 break;
             case R.id.bt_web3:
+                intent = new Intent(MainActivity.this,Web3Activity.class);
+                startActivity(intent);
                 break;
             case R.id.bt_web4:
                 break;

@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta http-equiv = "Content-Type" content="text/html;charset=UTF-8"
+    <title>测试Js</title>
+    <script language="JavaScript">
+        function alertFun()
+        {
+            alert("Alert警告对话框!");
+        }
+        function confirmFun()
+        {
+            if(confirm("访问百度?"))
+            {location.href = "http://www.baidu.com";}
+            else alert("取消访问!");
+        }
+        function promptFun()
+        {
+            var word = prompt("Prompt对话框","请输入...:");
+            if(word)
+            {
+                alert("你输入了:"+word)
+            }else{alert("你什么都没写!");}
+        }
+    </script>
+</head>
+
+<body>
+<p>基本使用</p>
+<p>
+<input type="button" value="Toast提示" onclick="myObj.showToast('snriud');"/>
+<input type="button" value="列表对话框" onclick="myObj.showDialog();"/>
+</p>
+<p>Alert对话框</p>
+<p>
+    <input type="submit" name = "Submit1" value="Alert对话框" onclick="alertFun()"/>
+</p>
+<p>Confirm对话框</p>
+<p>
+    <input type="submit" name = "Submit2" value="Confirm对话框" onclick="confirmFun()"/>
+</p>
+<p>Prompt对话框</p>
+<p>
+    <input type="submit" name = "Submit3" value="Prompt对话框" onclick="promptFun()"/>
+</p>
+</body>
+</html>
