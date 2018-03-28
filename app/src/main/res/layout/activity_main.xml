@@ -23,7 +23,7 @@
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/bt_web3"
-            android:text="4.4之后注意事项"
+            android:text="通过js读取联系人"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
