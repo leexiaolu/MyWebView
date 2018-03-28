@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.leesnriud.mywebview">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Web1Activity" />
+        <activity android:name=".Web2Activity" />
+        <activity android:name=".Web3Activity" />
+        <activity android:name=".Web4Activity" />
+        <activity android:name=".Web5Activity" />
+        <activity android:name=".Web6Activity"/>
     </application>
 
 </manifest>
